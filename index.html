@@ -1,40 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <div id="login-box">
-    <label for="email">Email:</label>
-    <input type="text" id="email" placeholder="Enter your email">
-    <button onclick="checkEmail()">Log In</button>
-  </div>
-
-  <div id="user-info" style="display:none;">
-    <h2 id="user-name"></h2>
-    <img id="user-image" alt="User Image">
-    <label for="password">Password:</label>
-    <input type="password" id="password" placeholder="Enter your password">
-    <button onclick="checkPassword()">Verify</button>
-  </div>
-
-  <div id="success-message" style="display:none;">
-    <p>Login successful!</p>
-  </div>
-
-  <div id="register-box">
-    <h3>Register a new user</h3>
-    <label for="new-email">Email:</label>
-    <input type="text" id="new-email" placeholder="Enter new email">
-    <label for="new-name">Name:</label>
-    <input type="text" id="new-name" placeholder="Enter new name">
-    <label for="new-password">Password:</label>
-    <input type="password" id="new-password" placeholder="Enter new password">
-    <button onclick="addUser()">Register</button>
-  </div>
-
-  <script src="script.js"></script>
+    <div id="loginBox">
+        <input type="email" id="email" placeholder="Email">
+        <button onclick="checkEmail()">Login</button>
+    </div>
+    <script src="login.js"></script>
 </body>
 </html>
