@@ -15,7 +15,7 @@ body {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     text-align: center;
     width: 100%;
-    max-width: 300px; /* Add this line to prevent overflow */
+    max-width: 300px;
 }
 
 #loginBox input {
@@ -24,11 +24,11 @@ body {
     width: 100%;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-sizing: border-box; /* Add this line to include padding and border in the element's total width and height */
+    box-sizing: border-box;
 }
 
 #loginBox button {
-    background-color: #4CAF50;
+    background-color: #353970;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -37,7 +37,7 @@ body {
 }
 
 #loginBox button:hover {
-    background-color: #45a049;
+    background-color: #5e70c0;
 }
 
 #loginBox img {

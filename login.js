@@ -23,6 +23,6 @@ function verifyPassword(correctPassword) {
     const password = document.getElementById('password').value;
 
     if (password === correctPassword) {
-        alert('You have successfully logged in!');
+        alert('Logget inn!');
     }
 }
